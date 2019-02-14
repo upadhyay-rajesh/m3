@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="92" failures="0" name="com.CucumberOptions.RunCukeTest" time="0.102" errors="6" skipped="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Dell\Desktop\junitcucumber\junitcucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Dell\Desktop\junitcucumber\junitcucumber"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Dell\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\e drive\tdd\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf250228623805254984.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Users\Dell\AppData\Roaming\npm;D:\f drive\SOTWARES\java softwar\eclipse-jee-luna-SR2-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Dell"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Dell"/>
+    <property name="java.class.path" value="/D:/f drive/SOTWARES/java softwar/eclipse-jee-luna-SR2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Dell\Desktop\junitcucumber\junitcucumber\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: optional capture groups/Alternation" name="Then I see following dollars in my account" time="0"/>
+  <testcase classname="Scenario: optional capture groups/Alternation" name="Then I do not see following dollars in my account" time="0"/>
+  <testcase classname="Scenario: optional capture groups/Alternation" name="Scenario: optional capture groups/Alternation" time="0.001"/>
+  <testcase classname="Scenario: optional non-capture groups" name="Given I have following dollars in my account" time="0"/>
+  <testcase classname="Scenario: optional non-capture groups" name="Given He has following dollars in my account" time="0"/>
+  <testcase classname="Scenario: optional non-capture groups" name="Given User has following dollars in my account" time="0"/>
+  <testcase classname="Scenario: optional non-capture groups" name="Scenario: optional non-capture groups" time="0.002"/>
+  <testcase classname="Scenario: sample scenario" name="Given user is on application page" time="0.001">
+    <error message="TODO: implement me" type="cucumber.api.PendingException">cucumber.api.PendingException: TODO: implement me
+	at cucumber.runtime.junit.JUnitReporter.addFailure(JUnitReporter.java:150)
+	at cucumber.runtime.junit.JUnitReporter.addFailureOrIgnoreStep(JUnitReporter.java:138)
+	at cucumber.runtime.junit.JUnitReporter.result(JUnitReporter.java:98)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:282)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>
+  # 2: Recipe 4
+  Scenario: optional non-capture groups            &amp;#27;[90m# Capture_group.feature:11&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI have following dollars in my account&amp;#27;[0m   &amp;#27;[90m# CaptureGroupsSteps.have_following_dollars_in_my_account()&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mHe has following dollars in my account&amp;#27;[0m   &amp;#27;[90m# CaptureGroupsSteps.have_following_dollars_in_my_account()&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mUser has following dollars in my account&amp;#27;[0m &amp;#27;[90m# CaptureGroupsSteps.have_following_dollars_in_my_account()&amp;#27;[0m
+Feature: sample application
+  In order to test login page
+  As a Registered user
+  I want to specify the login conditions
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: sample scenario" name="Scenario: sample scenario" time="0.002">
+    <error message="TODO: implement me" type="cucumber.api.PendingException">cucumber.api.PendingException: TODO: implement me
+	at cucumber.runtime.junit.JUnitReporter.addFailure(JUnitReporter.java:150)
+	at cucumber.runtime.junit.JUnitReporter.addFailureOrIgnoreStep(JUnitReporter.java:138)
+	at cucumber.runtime.junit.JUnitReporter.result(JUnitReporter.java:98)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:282)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+  <testcase classname="Scenario: sample scenario" name="When user clicks login button" time="0.001">
+    <error message="TODO: implement me" type="cucumber.api.PendingException">cucumber.api.PendingException: TODO: implement me
+	at cucumber.runtime.junit.JUnitReporter.addFailure(JUnitReporter.java:150)
+	at cucumber.runtime.junit.JUnitReporter.addFailureOrIgnoreStep(JUnitReporter.java:138)
+	at cucumber.runtime.junit.JUnitReporter.result(JUnitReporter.java:98)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:282)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+  <testcase classname="Scenario: sample scenario" name="Scenario: sample scenario" time="0.002">
+    <error message="TODO: implement me" type="cucumber.api.PendingException">cucumber.api.PendingException: TODO: implement me
+	at cucumber.runtime.junit.JUnitReporter.addFailure(JUnitReporter.java:150)
+	at cucumber.runtime.junit.JUnitReporter.addFailureOrIgnoreStep(JUnitReporter.java:138)
+	at cucumber.runtime.junit.JUnitReporter.result(JUnitReporter.java:98)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:282)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+  <testcase classname="Scenario: sample scenario" name="Then user is on home page" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: GitHub Bootcamp Section" name="Given user is on GitHub home page" time="0"/>
+  <testcase classname="Scenario: GitHub Bootcamp Section" name="When user focuses on GitHub Bootcamp Section" time="0"/>
+  <testcase classname="Scenario: GitHub Bootcamp Section" name="Then user gets an option to setup git" time="0"/>
+  <testcase classname="Scenario: GitHub Bootcamp Section" name="And user gets an option to create repository" time="0.001"/>
+  <testcase classname="Scenario: GitHub Bootcamp Section" name="And user gets an option to Fork Repository" time="0"/>
+  <testcase classname="Scenario: GitHub Bootcamp Section" name="And user gets an option to work together" time="0"/>
+  <testcase classname="Scenario: GitHub Bootcamp Section" name="Scenario: GitHub Bootcamp Section" time="0.005"/>
+  <testcase classname="Scenario: Top Banner content" name="Given user is on GitHub home page" time="0"/>
+  <testcase classname="Scenario: Top Banner content" name="When user focuses on Top Banner" time="0"/>
+  <testcase classname="Scenario: Top Banner content" name="Then user gets an option of home page" time="0"/>
+  <testcase classname="Scenario: Top Banner content" name="And user gets an option to search" time="0"/>
+  <testcase classname="Scenario: Top Banner content" name="And user gets settings options" time="0"/>
+  <testcase classname="Scenario: Top Banner content" name="And user gets an option to logout" time="0"/>
+  <testcase classname="Scenario: Top Banner content" name="Scenario: Top Banner content" time="0.08"/>
+  <testcase classname="Scenario: login flow" name="Given user is on Application landing page" time="0"/>
+  <testcase classname="Scenario: login flow" name="And Sign in button is present on screen" time="0"/>
+  <testcase classname="Scenario: login flow" name="When user clicks on Sign in button" time="0.001"/>
+  <testcase classname="Scenario: login flow" name="Then user is displayed login screen" time="0"/>
+  <testcase classname="Scenario: login flow" name="When user enters &quot;ShankarGarg&quot; in username field" time="0"/>
+  <testcase classname="Scenario: login flow" name="And user enters &quot;123456&quot; in password field" time="0"/>
+  <testcase classname="Scenario: login flow" name="And user clicks Sign in button" time="0"/>
+  <testcase classname="Scenario: login flow" name="Then user is on home page" time="0"/>
+  <testcase classname="Scenario: login flow" name="And title of home page is &quot;GitHub&quot;" time="0"/>
+  <testcase classname="Scenario: login flow" name="But Sign in button is not present" time="0"/>
+  <testcase classname="Scenario: login flow" name="Scenario: login flow" time="0"/>
+  <testcase classname="Scenario: New User Registration" name="Given user is on Application landing page" time="0"/>
+  <testcase classname="Scenario: New User Registration" name="When user enters &quot;ShankarGarg&quot; in username field" time="0"/>
+  <testcase classname="Scenario: New User Registration" name="And user enters &quot;sgarg@gmail.com&quot; in password field" time="0"/>
+  <testcase classname="Scenario: New User Registration" name="And user enters &quot;123456&quot; in password field" time="0"/>
+  <testcase classname="Scenario: New User Registration" name="And user clicks on Signup for GitHub button" time="0"/>
+  <testcase classname="Scenario: New User Registration" name="Then user is successfully registered" time="0"/>
+  <testcase classname="Scenario: New User Registration" name="Scenario: New User Registration" time="0"/>
+  <testcase classname="Scenario: Existing user Verification" name="Given user is on Application landing page" time="0"/>
+  <testcase classname="Scenario: Existing user Verification" name="Then we verify following user exists" time="0.001"/>
+  <testcase classname="Scenario: Existing user Verification" name="Scenario: Existing user Verification" time="0.001"/>
+  <testcase classname="| wrongusername | 123456 |" name="Given user is on Application landing page" time="0"/>
+  <testcase classname="| wrongusername | 123456 |" name="When user clicks on Sign in button" time="0"/>
+  <testcase classname="| wrongusername | 123456 |" name="Then user is displayed login screen" time="0"/>
+  <testcase classname="| wrongusername | 123456 |" name="When user enters &quot;wrongusername&quot; in username field" time="0"/>
+  <testcase classname="| wrongusername | 123456 |" name="And user enters &quot;123456&quot; in password field" time="0"/>
+  <testcase classname="| wrongusername | 123456 |" name="And user clicks Sign in button" time="0"/>
+  <testcase classname="| wrongusername | 123456 |" name="Then user gets login failed error message" time="0"/>
+  <testcase classname="| wrongusername | 123456 |" name="| wrongusername | 123456 |" time="0"/>
+  <testcase classname="| ShankarGarg | wrongpassword |" name="Given user is on Application landing page" time="0"/>
+  <testcase classname="| ShankarGarg | wrongpassword |" name="When user clicks on Sign in button" time="0"/>
+  <testcase classname="| ShankarGarg | wrongpassword |" name="Then user is displayed login screen" time="0"/>
+  <testcase classname="| ShankarGarg | wrongpassword |" name="When user enters &quot;ShankarGarg&quot; in username field" time="0"/>
+  <testcase classname="| ShankarGarg | wrongpassword |" name="And user enters &quot;wrongpassword&quot; in password field" time="0"/>
+  <testcase classname="| ShankarGarg | wrongpassword |" name="And user clicks Sign in button" time="0"/>
+  <testcase classname="| ShankarGarg | wrongpassword |" name="Then user gets login failed error message" time="0"/>
+  <testcase classname="| ShankarGarg | wrongpassword |" name="| ShankarGarg | wrongpassword |" time="0"/>
+  <testcase classname="| wrongusername | wrongpassword |" name="Given user is on Application landing page" time="0"/>
+  <testcase classname="| wrongusername | wrongpassword |" name="When user clicks on Sign in button" time="0"/>
+  <testcase classname="| wrongusername | wrongpassword |" name="Then user is displayed login screen" time="0"/>
+  <testcase classname="| wrongusername | wrongpassword |" name="When user enters &quot;wrongusername&quot; in username field" time="0"/>
+  <testcase classname="| wrongusername | wrongpassword |" name="And user enters &quot;wrongpassword&quot; in password field" time="0"/>
+  <testcase classname="| wrongusername | wrongpassword |" name="And user clicks Sign in button" time="0"/>
+  <testcase classname="| wrongusername | wrongpassword |" name="Then user gets login failed error message" time="0"/>
+  <testcase classname="| wrongusername | wrongpassword |" name="| wrongusername | wrongpassword |" time="0"/>
+  <testcase classname="Scenario: Table Diff" name="Given user send a get request to &quot;localhost:8080/e&quot;" time="0"/>
+  <testcase classname="Scenario: Table Diff" name="Then user gets following response" time="0"/>
+  <testcase classname="Scenario: Table Diff" name="Scenario: Table Diff" time="0"/>
+  <testcase classname="Scenario: Doc String" name="Given a book named &quot;cucumber &quot; with following body" time="0"/>
+  <testcase classname="Scenario: Doc String" name="Scenario: Doc String" time="0"/>
+  <testcase classname="| Manager | now able to manage your employee accounts |" name="Given I have a user account with Manager rights" time="0"/>
+  <testcase classname="| Manager | now able to manage your employee accounts |" name="Then I should receive an email with the body:" time="0"/>
+  <testcase classname="| Manager | now able to manage your employee accounts |" name="| Manager | now able to manage your employee accounts |" time="0"/>
+  <testcase classname="| Admin | able to manage any user account on the system |" name="Given I have a user account with Admin rights" time="0"/>
+  <testcase classname="| Admin | able to manage any user account on the system |" name="Then I should receive an email with the body:" time="0"/>
+  <testcase classname="| Admin | able to manage any user account on the system |" name="| Admin | able to manage any user account on the system |" time="0.001"/>
+  <testcase classname="Scenario: Date Format" name="Given My Birthday is on" time="0">
+    <error message="TODO: implement me" type="cucumber.api.PendingException">cucumber.api.PendingException: TODO: implement me
+	at cucumber.runtime.junit.JUnitReporter.addFailure(JUnitReporter.java:150)
+	at cucumber.runtime.junit.JUnitReporter.addFailureOrIgnoreStep(JUnitReporter.java:138)
+	at cucumber.runtime.junit.JUnitReporter.result(JUnitReporter.java:98)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:282)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>
+  Scenario Outline: Email content verification    &amp;#27;[90m# login.feature:87&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI have a user account with &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mAdmin&amp;#27;[0m&amp;#27;[32m rights&amp;#27;[0m &amp;#27;[90m# LoginSteps.i_have_a_user_account_with_Manager_rights(String)&amp;#27;[0m
+    &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI should receive an email with the body:&amp;#27;[0m &amp;#27;[90m# LoginSteps.i_should_receive_an_email_with_the_body(String)&amp;#27;[0m
+      &quot;&quot;&quot;
+      Dear user,
+      You have been granted Admin rights.  You are able to manage any user account on the system. Please be     
+      responsible.
+      -The Admins
+      &quot;&quot;&quot;
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Date Format" name="Scenario: Date Format" time="0">
+    <error message="TODO: implement me" type="cucumber.api.PendingException">cucumber.api.PendingException: TODO: implement me
+	at cucumber.runtime.junit.JUnitReporter.addFailure(JUnitReporter.java:150)
+	at cucumber.runtime.junit.JUnitReporter.addFailureOrIgnoreStep(JUnitReporter.java:138)
+	at cucumber.runtime.junit.JUnitReporter.result(JUnitReporter.java:98)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:282)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Web Site loads" name="Given application URL is ready with the user" time="0"/>
+  <testcase classname="Scenario: Web Site loads" name="When user enters the URL in browser" time="0"/>
+  <testcase classname="Scenario: Web Site loads" name="Then application page loads" time="0"/>
+  <testcase classname="Scenario: Web Site loads" name="Scenario: Web Site loads" time="0"/>
+  <testcase classname="Scenario: checking pre-condition, action and results" name="Given user is on Application landing page" time="0"/>
+  <testcase classname="Scenario: checking pre-condition, action and results" name="When user clicks Sign in button" time="0"/>
+  <testcase classname="Scenario: checking pre-condition, action and results" name="Then user is on login screen" time="0"/>
+  <testcase classname="Scenario: checking pre-condition, action and results" name="Scenario: checking pre-condition, action and results" time="0"/>
+</testsuite>
