@@ -6,7 +6,7 @@ import cucumber.api.java.en.When;
 
 public class HomePageSteps {
 
-	// Chapter 1, Recipe 4 Starts
+	//  1, Recipe 4 Starts
 	@Given("^user is on Github home page$")
 	public void user_is_on_Github_home_page() {
 
@@ -76,6 +76,6 @@ public class HomePageSteps {
 	public void user_gets_an_option_to_logout() {
 
 	}
-	// Chapter 1, Recipe 4 Ends
+	//  1, Recipe 4 Ends
 
 }

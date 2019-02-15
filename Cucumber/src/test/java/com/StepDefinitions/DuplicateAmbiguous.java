@@ -4,7 +4,7 @@ import cucumber.api.java.en.Given;
 
 public class DuplicateAmbiguous {
 
-	// Chapter 2, Recipe 2
+	//  2, Recipe 2
 	//Uncomment following code to get Duplicate/Ambiguous Steps Exceptions
 	/*
 	// Duplicate Steps

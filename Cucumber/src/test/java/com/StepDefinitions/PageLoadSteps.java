@@ -6,7 +6,7 @@ import cucumber.api.java.en.When;
 
 public class PageLoadSteps {
 	
-	// Chapter 1, Recipe 1
+	//  1, Recipe 1
 	@Given("^application URL is ready with the user$")
 	public void application_URL_is_ready_with_the_user() {
 	}
@@ -19,8 +19,8 @@ public class PageLoadSteps {
 	public void application_page_loads() {
 	}
 	
-	// Chapter 1, Recipe 2
-	//Chapter 2, Recipe 1
+	//  1, Recipe 2
+	// 2, Recipe 1
 	@Given("^user is on Application landing page$")
 	public void user_is_on_Application_landing_page() {
 	}

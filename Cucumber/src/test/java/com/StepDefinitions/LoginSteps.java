@@ -13,7 +13,7 @@ import cucumber.api.java.it.Date;
 
 public class LoginSteps {
 
-	// Chapter 1, Recipe 3 Starts
+	//  1, Recipe 3 Starts
 	@Given("^Sign in button is present on screen$")
 	public void sign_in_button_is_present_on_screen() {
 
@@ -29,7 +29,7 @@ public class LoginSteps {
 
 	}
 
-	// # Chapter 2: Recipe 3 Starts
+	// #  2: Recipe 3 Starts
 	@When("^user enters \"(.*?)\" in username field$")
 	public void user_enters_in_username_field(String arg1) {
 
@@ -42,7 +42,7 @@ public class LoginSteps {
 		System.out.println(arg1);
 	}
 
-	// # Chapter 2: Recipe 3 Ends
+	// #  2: Recipe 3 Ends
 
 	@Then("^user is on home page$")
 	public void user_is_on_home_page() {
@@ -59,9 +59,9 @@ public class LoginSteps {
 
 	}
 
-	// Chapter 1, Recipe 3 Ends
+	//  1, Recipe 3 Ends
 
-	// Chapter 1, Recipe 6 Starts
+	//  1, Recipe 6 Starts
 	@When("^user clicks on Signup for GitHub button$")
 	public void user_clicks_on_Signup_for_GitHub_button() {
 	}
@@ -70,27 +70,25 @@ public class LoginSteps {
 	public void user_is_successfully_registered() {
 	}
 
-	// Chapter 1, Recipe 6 Ends
+	//  1, Recipe 6 Ends
 
-	// Chapter 1, Recipe 7 Starts
-	// Chapter 2, Recipe 5 Starts
+	//  1, Recipe 7 Starts
+	//  2, Recipe 5 Starts
 	@Then("^we verify following user exists$")
 	public void we_verify_following_user_exists(DataTable arg1) {
 
 	}
 
-	// Chapter 1, Recipe 7 ends
-	// Chapter 2, Recipe 5 ends
+	//  1, Recipe 7 ends
+	//  2, Recipe 5 ends
 
-	// Chapter 1, Recipe 8 starts
+	//  1, Recipe 8 starts
 	@Then("^user gets login failed error message$")
 	public void user_gets_login_failed_error_message() {
 
 	}
 
-	// Chapter 1, Recipe 8 ends
-
-	// Chapter 2, Recipe 6 Starts
+	
 	@Given("^user send a get request to \"(.*?)\"$")
 	public void user_send_a_get_request_to(String arg1) {
 		// lets assume user sends a get request
@@ -109,9 +107,6 @@ public class LoginSteps {
 		expectedUsers.diff(actualUsers);
 	}
 
-	// Chapter 2, Recipe 6 Ends
-
-	// Chapter 2, Recipe 7 Starts
 	@Given("^a book named \"(.*?)\" with following body$")
 	public void a_book_named_with_following_body(String arg1, String arg2) {
 		// prints the regular expression
@@ -121,9 +116,7 @@ public class LoginSteps {
 		System.out.println(arg2);
 	}
 
-	// Chapter 2, Recipe 7 Ends
-
-	// Chapter 2, Recipe 8 Starts
+	
 	@Given("^I have a user account with (.*?) rights$")
 	public void i_have_a_user_account_with_Manager_rights(String role) {
 
@@ -139,9 +132,9 @@ public class LoginSteps {
 		System.out.println(docString);
 
 	}
-	// Chapter 2, Recipe 8 Ends
+	//  2, Recipe 8 Ends
 	
-	// Chapter 2, Recipe 9 Starts
+	//  2, Recipe 9 Starts
 	@Given("^My Birthday is on \"(.*?)\"$")
 	public void my_Birthday_is_on(@Format("dd-MM-yyyy") Date bday)  {
 		//prints the text converted to Java.util.Date
@@ -150,6 +143,6 @@ public class LoginSteps {
 	    //prints the class of bday to confirm it's a Date
 	    System.out.println(bday.getClass());
 	}
-	// Chapter 2, Recipe 9 ends
+	//  2, Recipe 9 ends
 
 }

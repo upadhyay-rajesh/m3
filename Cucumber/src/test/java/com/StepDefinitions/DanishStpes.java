@@ -6,7 +6,7 @@ import cucumber.api.java.da.Så;
 
 public class DanishStpes {
 	
-	//# Chapter 1, Recipe 9
+	//#  1, Recipe 9
 	@Givet("^brugeren er på ansøgning side$")
 	public void brugeren_er_på_ansøgning_side() {
 	}

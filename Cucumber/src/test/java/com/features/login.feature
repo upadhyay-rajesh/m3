@@ -6,8 +6,8 @@ Feature: login Page
   Scenario: login flow
     login should be quick and easy
 
-    # Chapter 1: Recipe 3, 6
-    # Chapter 2: Recipe 3
+    #  1: Recipe 3, 6
+    #  2: Recipe 3
     Given user is on Application landing page
     And Sign in button is present on screen
     When user clicks on Sign in button
@@ -19,7 +19,7 @@ Feature: login Page
     And title of home page is "GitHub"
     But Sign in button is not present
 
-  # Chapter 1: Recipe 6
+  #  1: Recipe 6
   Scenario: New User Registration
     Given user is on Application landing page
     When user enters "ShankarGarg" in username field
@@ -28,8 +28,8 @@ Feature: login Page
     And user clicks on Signup for GitHub button
     Then user is successfully registered
 
-  # Chapter 1: Recipe 7
-  # Chapter 2: Recipe 5
+  #  1: Recipe 7
+  #  2: Recipe 5
   Scenario: Existing user Verification
     Given user is on Application landing page
     Then we verify following user exists
@@ -38,7 +38,7 @@ Feature: login Page
       | Ram     | ram@email.com   | 888   |
       | Sham    | sham@email.org  | 666   |
 
-  # Chapter 1: Recipe 8
+  #  1: Recipe 8
   Scenario Outline: Login fail - possible combinations
     Given user is on Application landing page
     When user clicks on Sign in button
@@ -54,7 +54,7 @@ Feature: login Page
       | ShankarGarg   | wrongpassword |
       | wrongusername | wrongpassword |
 
-  # Chapter 2: Recipe 6
+  #  2: Recipe 6
   Scenario: Table Diff
     Given user send a get request to "localhost:8080/e"
     Then user gets following response
@@ -62,15 +62,15 @@ Feature: login Page
       | sham     | 25  |
       | ram      | 26  |
 
-  # Chapter 2: Recipe 7
+  #  2: Recipe 7
   Scenario: Doc String
-    Given a book named "cucumber cookbook" with following body
+    Given a book named "java" with following body
       """
-      Title – Cucumber cookbook
-      Author of this book is first time writer so please excuse the naïve mistakes. But he will definitely improve with chapters he writes.  
+      Title – java
+      Author of this book is first time writer so please excuse the naïve mistakes. But he will definitely improve with s he writes.  
       """
 
-  # Chapter 2: Recipe 8
+  #  2: Recipe 8
   Scenario Outline: Email content verification
     Given I have a user account with <Role> rights
     Then I should receive an email with the body:
@@ -86,6 +86,6 @@ Feature: login Page
       | Manager | now able to manage your employee accounts     |
       | Admin   | able to manage any user account on the system |
     
-    # Chapter 2: Recipe 9  
+    #  2: Recipe 9  
    Scenario: Date Format
-   Given My Birthday is on “29-12-1986”
+   Given My Birthday is on "29-12-1986"

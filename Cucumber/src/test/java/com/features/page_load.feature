@@ -3,7 +3,7 @@ Feature: Test Git web Application
   As a user
   I want to specify the application flow
 
-  # Chapter 1, Recipe 1
+  #  1, Recipe 1
   Scenario: Web Site loads
     application page load should be quick
 
@@ -11,8 +11,8 @@ Feature: Test Git web Application
     When user enters the URL in browser
     Then application page loads
 
-  # Chapter 1, Recipe 2
-  #Chapter 2, Recipe 1, Recipe 2
+  #  1, Recipe 2
+  # 2, Recipe 1, Recipe 2
   Scenario: checking pre-condition, action and results
     Given user is on Application landing page
     When user clicks Sign in button
